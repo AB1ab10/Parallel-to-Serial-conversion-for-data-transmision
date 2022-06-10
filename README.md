@@ -1,0 +1,2 @@
+# Parallel-to-Serial-conversion-for-data-transmision
+This is a verilog HDL example for serial 8 bit data transmission. The data is stored in two 4-bit parallel registers connected to a multiplexer. The selection input for the multiplexer is controlled by a 3 state controller. The synchronizing signals for the transmission are VO and OK. As long as transmission is occurring the VO signal is active and once the transmission is complete VO becomes inactive and OK activates
