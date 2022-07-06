@@ -25,7 +25,7 @@ module controller(
         case(state)
             q0 : if(start) next_state = q1;
                  else next_state = q0;
-            q1 : if(numarator < 7) next_state = q1;
+            q1 : if(counter < 7) next_state = q1;
                  else next_state = q2;
             q2 : next_state = q2;
             default: next_state = q0;
